@@ -1,0 +1,22 @@
+The React project structure (layouts, views, contexts, router file, etc.)
+The structure of the ContextProvider file (context variable, context variable provider component, and a function that returns the context variable (optional))
+The structure of the routing (2 main parents for each layout component, each layout will have a condition to stay or to Navigate to another route, each layout will have children views components, each view will have its own logic)
+The router provider going inside the context provider on the main.jsx file
+Using the bcrpyt() method to encrypt a string
+Adding an annotation to an unknown type of variable to enable auto-completion on the AuthController (/** @var \App\Models\User $user */)
+Generating a token for the user when making an API
+The way the compact() method works to create an array containing variables and their values
+The 'unique:table,column' rule to validate the SignupRequest
+The 'exists:table,column' rule to validate the LoginRequest
+Using the Password:: methods to add special rules to a request
+Using the route facade apiResource() method to only create the api relevant routes
+Creating a controller with the --api flag to only have the relevant api methods
+Creating a controller with the --requests --resource flags for a given model and automatically asign the created requests to their respective controller methods (eg. php artisan make:controller Api/UserController --model=User --requests --resource)
+Creating a resource file, used to convert database models into a json serializable data structure
+Adding the id to the 'unique:table,column,' rule to validate the UpdateUserRequest
+Adding inline Css style on the Users.jsx file
+The Html markup for the table inside Users.jsx
+The useParam() react function to access the parameters of the url
+Changing the $wrap property on the UserResource file to not wrap the data
+The useNavigate() hook used in the onSubmit() method on the UserForm.jsx file
+Using the useContext() hook to display notifications
